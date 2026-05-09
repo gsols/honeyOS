@@ -1,7 +1,7 @@
 # [[bin]]
 # name = "xpaceos"
 # test = false
-# bench = false 
+# bench = false
 
 [package]
 name = "xspaceos"
@@ -10,6 +10,7 @@ edition = "2024"
 
 [dependencies]
 bootloader = "0.9"
+volatile = "0.2.6"
 
 [profile.dev]
 panic = "abort"
